@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: #54AFBC;
+    height:75px ;
+}
+
+.logo{
+    display: inline;
+    color: white;
+    margin-left: 50px;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav ul{
+    float: right;
+    padding: 0;
+    margin: 0 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+nav li{
+    display: inline-block;
+    margin: 10px;
+    font-size: 30px;
+    padding: 10px 5px;
+}
+
+nav li a:hover{
+    color:black;
+    transition: 1s;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.row{
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 80% 100%;
+}
+
+.column-left{
+    margin-left: 30px;
+}
+
+.image{
+    width: 500px;
+    height: 500px;
+    margin: 80px 0 0 100px;
+    border: 5px solid #54AFBC;
+    border-radius: 250px;
+}
+
+.text{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 225px;
+    margin-right: 200px;
+    font-weight: bold;
+}
+
+.text .web{
+    color: goldenrod;
+}
+
+.click{
+    background-color: goldenrod;
+    font-size: 25px;
+    width: 140px;
+    border-radius: 30px;
+    margin: 20px 270px;
+}
+
+.click a{
+    color: black;
+}
