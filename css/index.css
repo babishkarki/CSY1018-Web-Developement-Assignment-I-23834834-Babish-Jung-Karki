@@ -5,13 +5,13 @@
 
 nav{
     background-color: #54AFBC;
-    height:75px ;
 }
 
 .logo{
     display: inline;
     color: white;
     margin-left: 50px;
+    line-height: 60px;
     font-size: 50px;
     font-family: 'Poppins', sans-serif;
 }
@@ -26,9 +26,8 @@ nav ul{
 
 nav li{
     display: inline-block;
-    margin: 10px;
+    padding: 10px;
     font-size: 30px;
-    padding: 10px 5px;
 }
 
 nav li a:hover{

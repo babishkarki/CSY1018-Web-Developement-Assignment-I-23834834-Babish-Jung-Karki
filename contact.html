@@ -2,9 +2,9 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
     <title>Contact</title>
     <link rel="stylesheet" href="css/contact.css">
 </head>
@@ -13,8 +13,8 @@
     <nav>
         <h2 class="logo">Babish Karki</h2>
         <ul>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Portfolio</a></li>
             <li><a href="#">Experience</a></li>
             <li><a href="#">Report</a></li>
         </ul>
@@ -25,32 +25,44 @@
         <p>Enter the details below and contact me anytime. Please enter the correct credentials about you.</p>
     </div>
 
-    <div class="details">
-        <h4 class="contact2">Enter your informations</h4>
-        <form class="first">
-            <label for="fname">First Name</label><br>
-            <input type="text" name="fname" placeholder="Babish" required><br>
+    <div class="container">
+        <div class="column-left">
+            <div class="details">
+                <h4 class="contact2">Enter your informations</h4>
+                <form class="first">
+                    <label for="fname">First Name</label><br>
+                    <input type="text" name="fname" placeholder="Babish" required><br>
 
-            <label for="lname">Last Name</label><br>
-            <input type="text" name="lname" placeholder="Karki" required><br>
-        
-            <label for="email">Email</label><br>
-            <input type="email" name="email" placeholder="Babishkarki@xyz.com"><br>
+                    <label for="lname">Last Name</label><br>
+                    <input type="text" name="lname" placeholder="Karki" required><br>
 
-            <label for="number">Phone Number</label><br>
-            <input type="text" name="number" placeholder="+977" required><br>
+                    <label for="email">Email</label><br>
+                    <input type="email" name="email" placeholder="Babishkarki@xyz.com"><br>
 
-            <label for="msg">Message</label><br>
-            <input type="text" name="msg" id="msg" placeholder="Type your message here"><br>
+                    <label for="number">Phone Number</label><br>
+                    <input type="text" name="number" placeholder="+977" required><br>
 
-            <button type="submit">Submit</button>
-        </form>
+                    <label for="msg">Message</label><br>
+                    <input type="text" name="msg" id="msg" placeholder="Type your message here"><br>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="column-right">
+            <h4 class="contact2">My Informations</h4>
+            <div class="about">
+                <p>
+                    Babish Karki, +977-9813079219 <br>
+                    Nepal,Kathmandu, Budhanilkantha-12, 44600 <br>
+                    Email me: <a href="mailto:Babishkarki629@gmail.com">Babishkarki629gmail.com</a>
+                </p>
+            </div>
+        </div>
     </div>
-
-    <div>
-        <h4>About me</h4>
-    </div>
-
 </body>
+<footer>
+    Babish Karki. All rights reserved.
+</footer>
 
 </html>
