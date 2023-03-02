@@ -53,7 +53,7 @@ a {
 }
 
 .details {
-    background-color: black;
+    background-color: #54AFBC;
     border-radius: 50px;
     margin: 10px 300px;
     padding: 30px;
@@ -103,7 +103,7 @@ button {
 
 .about {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 40px;
     font-size: 30px;
     color: white;
 }
