@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: #54AFBC;
+}
+
+.logo{
+    display: inline;
+    color: white;
+    margin-left: 50px;
+    line-height: 60px;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav ul{
+    float: right;
+    margin-right: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+nav li{
+    display: inline-block;
+    margin: 12px;
+    font-size: 30px;
+}
+
+nav li a:hover{
+    color:black;
+    transition: 1s;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}

@@ -1,13 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-nav{
+nav {
     background-color: #54AFBC;
+
 }
 
-.logo{
+.logo {
     display: inline;
     color: white;
     margin-left: 50px;
@@ -16,40 +17,39 @@ nav{
     font-family: 'Poppins', sans-serif;
 }
 
-nav ul{
+nav ul {
     float: right;
-    padding: 0;
-    margin: 0 15px;
+    margin-right: 15px;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
 }
 
-nav li{
+nav li {
     display: inline-block;
-    padding: 10px;
+    margin: 8px;
     font-size: 30px;
 }
 
-nav li a:hover{
-    color:black;
+nav li a:hover {
+    color: black;
     transition: 1s;
 }
 
-a{
+a {
     color: white;
     text-decoration: none;
 }
 
-.row{
+.row {
     display: grid;
-    grid-template-columns: 600px 700px;
+    grid-template-columns: 600px 750px;
 }
 
-.column-left{
+.column-left {
     margin-left: 30px;
 }
 
-.image{
+.image {
     width: 330px;
     height: 550px;
     margin: 60px 0 0 40px;
@@ -57,26 +57,58 @@ a{
     border-radius: 50px;
 }
 
-.text{
+.text {
     font-size: 45px;
     text-align: center;
     margin-top: 225px;
-    margin-right: 10px;
+    margin-left: 100px;
     font-weight: bold;
 }
 
-.text .web{
+.text .web {
     color: goldenrod;
 }
 
-.click{
+.click {
     background-color: goldenrod;
     font-size: 25px;
     width: 140px;
     border-radius: 30px;
-    margin: 20px 270px;
+    margin: 20px 350px;
 }
 
-.click a{
+.click a {
     color: black;
+}
+
+@media (max-width:800px) {
+    .row {
+        grid-template-columns: 375px;
+    }
+
+    .logo {
+        margin-left: 10px;
+        font-size: 30px;
+    }
+
+    .image {
+        margin: 40px;
+        width: 270px;
+        height: 450px;
+    }
+
+    .text {
+        margin: 0px;
+        font-size: 20px;
+    }
+
+    .click {
+        margin: 20px 145px;
+        font-size: 15px;
+        width: 80px;
+    }
+
+    nav ul {
+        display: none;
+    }
 }
