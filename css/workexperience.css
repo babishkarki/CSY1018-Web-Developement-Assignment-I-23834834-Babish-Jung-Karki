@@ -89,12 +89,12 @@ a{
 
 @media (max-width: 414px){
     .head{grid-template-columns: auto; margin-top: 50px;}
-    .list{font-size: 23.5px;}
+    .list{font-size: 22.5px;}
     .manager{font-size: 25px;}
     .date{font-size: 20px;}
 }
 
-@media (max-width: 390px){
-    .list{font-size: 22px;}
+@media (max-width: 385px){
+    .list{font-size: 21.5px;}
     .logo a{margin: 0px -15px;}
 }
