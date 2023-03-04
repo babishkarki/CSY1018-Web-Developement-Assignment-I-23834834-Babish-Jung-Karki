@@ -38,3 +38,63 @@ a{
     color: white;
     text-decoration: none;
 }
+
+.manager {
+    text-align: center;
+    color:  rgb(51, 51, 51);
+    font-size: 40px;
+    margin-top: 65px;
+}
+
+.date {
+    font-size: 35px;
+}
+
+.head {
+    margin-top: 100px;
+    display: grid;
+    grid-template-rows: 550px;
+    grid-template-columns: 500px auto auto;
+}
+
+.background {
+    background-color: #54AFBC;
+    height: 535px;
+    margin: 10px;
+    border-radius: 50px;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 50px;
+}
+
+.list {
+    color: white;
+    padding: 30px 0px 0px 50px;
+    font-size: 30px;
+}
+
+.point {
+    list-style-type: square;
+    margin: 18px;
+}
+
+@media (max-width: 1536px){
+    .head{grid-template-columns: 450px auto auto;}
+    .list{padding: 20px 0px 0px 40px;}
+}
+
+@media (max-width: 414px){
+    .head{grid-template-columns: auto; margin-top: 50px;}
+    .list{font-size: 23.5px;}
+    .manager{font-size: 25px;}
+    .date{font-size: 20px;}
+}
+
+@media (max-width: 385px){
+    .list{font-size: 22px;}
+    .logo a{margin: 0px -15px;}
+}
