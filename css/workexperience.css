@@ -87,6 +87,7 @@ a{
     .list{padding: 20px 0px 0px 40px;}
 }
 
+
 @media (max-width: 430px){
     .logo{margin-left: 10px; font-size: 30px;}
     .head{grid-template-columns: auto; margin-top: 50px;}
@@ -94,4 +95,8 @@ a{
     .manager{font-size: 25px;}
     .date{font-size: 20px;}
     nav ul{display: none;}
+}
+
+@media screen and (min-width: 300px) and (max-width:370px){
+    .list{font-size: 19.5px;}
 }
