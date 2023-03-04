@@ -86,15 +86,10 @@ a{
     .head{grid-template-columns: 450px auto auto;}
     .list{padding: 20px 0px 0px 40px;}
 }
-
-@media (max-width: 414px){
+@media (min-width: 375px){
     .head{grid-template-columns: auto; margin-top: 50px;}
     .list{font-size: 22.5px;}
     .manager{font-size: 25px;}
     .date{font-size: 20px;}
 }
 
-@media (max-width: 385px){
-    .list{font-size: 21.5px;}
-    .logo a{margin: 0px -15px;}
-}
