@@ -81,31 +81,32 @@ a {
     color: black;
 }
 
-@media (max-width:800px) {
+@media (min-width:375px) {
     .row {
-        grid-template-columns: 375px;
+        grid-template-columns: auto;
     }
 
     .logo {
-        margin-left: 10px;
+        margin: 0 50px;
         font-size: 30px;
     }
 
     .image {
-        margin: 40px;
+        margin: 20px 60px;
         width: 270px;
         height: 450px;
     }
 
     .text {
         margin: 0px;
-        font-size: 20px;
+        padding-top: 30px;
+        font-size: 30px;
     }
 
     .click {
-        margin: 20px 145px;
-        font-size: 15px;
-        width: 80px;
+        margin: 20px 155px;
+        font-size: 20px;
+        width: 85px;
     }
 
     nav ul {
