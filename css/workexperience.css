@@ -94,7 +94,7 @@ a{
     .date{font-size: 20px;}
 }
 
-@media (max-width: 385px){
+@media (max-width: 390px){
     .list{font-size: 22px;}
     .logo a{margin: 0px -15px;}
 }
