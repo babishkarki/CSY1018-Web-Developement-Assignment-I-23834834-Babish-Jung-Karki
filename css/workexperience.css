@@ -18,6 +18,7 @@ nav{
 
 nav ul{
     float: right;
+    padding: 0;
     margin-right: 15px;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
@@ -88,7 +89,7 @@ a{
 }
 
 
-@media (max-width: 430px){
+@media (max-width: 500px){
     .logo{margin-left: 10px; font-size: 30px;}
     .head{grid-template-columns: auto; margin-top: 50px;}
     .list{font-size: 22.5px;}
@@ -97,6 +98,7 @@ a{
     nav ul{display: none;}
 }
 
-@media screen and (min-width: 300px) and (max-width:370px){
-    .list{font-size: 19.5px;}
+@media (max-width:360px){
+    .title{font-size: 30px;}
+    .list{font-size: 19px;}
 }

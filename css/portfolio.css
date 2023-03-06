@@ -38,3 +38,50 @@ a{
     color: white;
     text-decoration: none;
 }
+
+.row{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 1% 20%;
+}
+
+.row2{
+    display: none;
+}
+
+img{
+    width: 100%;
+    height: 30%;
+}
+
+.column{
+    margin: 5px;
+}
+
+.eight{
+    height: auto;
+    margin-top: 35%;
+}
+
+
+@media (max-width: 930px){
+    .logo{margin-left: 25px; font-size: 40px;}
+    nav ul{display: none;}
+    .row{ display: none;}
+    .row2{grid-template-columns: auto auto auto; display: inline-grid; margin: 1% 3%;}
+}
+
+@media (max-width: 420px){
+    .logo{margin-left: 20px; font-size: 30px;}
+    nav ul{display: none;}
+    .row{ display: none;}
+    .row2{grid-template-columns: auto auto auto; display: inline-grid; margin: 1% 3%;}
+}
+
+@media (max-width: 320px){
+    .logo{margin-left: 15px; font-size: 30px;}
+    nav ul{display: none;}
+    .row{ display: none;}
+    .row2{grid-template-columns: 100px 100px 100px; display: inline-grid; margin: 1% 3%;}
+}
+
