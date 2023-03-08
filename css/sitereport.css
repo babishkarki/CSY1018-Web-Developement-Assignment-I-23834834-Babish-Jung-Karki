@@ -38,3 +38,22 @@ a{
     color: white;
     text-decoration: none;
 }
+
+.child1{
+    background-color: #54AFBC;
+    margin: 10px;
+}
+
+.report{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.text{
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}

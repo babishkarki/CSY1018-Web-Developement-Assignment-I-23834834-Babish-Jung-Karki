@@ -55,14 +55,8 @@ img{
 }
 
 .column{
-    margin: 5px;
+    margin: 2px;
 }
-
-.eight{
-    height: auto;
-    margin-top: 35%;
-}
-
 
 @media (max-width: 930px){
     .logo{margin-left: 25px; font-size: 40px;}
