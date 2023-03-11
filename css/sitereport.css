@@ -1,59 +1,96 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-nav{
-    background-color: #54AFBC;
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-.logo{
-    display: inline;
-    color: white;
-    margin-left: 50px;
-    line-height: 60px;
-    font-size: 50px;
-    font-family: 'Poppins', sans-serif;
+.logo {
+    color: #333;
+    font-size: 40px;
+    margin-left: 60px;
+    font-weight: 700;
+    text-decoration: non;
+    font-family: 'Montserrat', sans-serif;
 }
 
-nav ul{
-    float: right;
-    margin-right: 15px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
+nav ul {
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+    display: flex;
+    font-size: 25px;
 }
 
-nav li{
-    display: inline-block;
-    margin: 12px;
-    font-size: 30px;
+nav ul li {
+    margin: 0 10px;
 }
 
-nav li a:hover{
-    color:black;
-    transition: 1s;
-}
-
-a{
-    color: white;
+nav ul li a {
+    color: #333;
     text-decoration: none;
+    font-weight: 700;
+    transition: color 0.2s ease-in-out;
 }
 
-.child1{
+nav ul li a:hover {
+    color: goldenrod;
+}
+
+.child1 {
     background-color: #54AFBC;
-    margin: 10px;
+    border-radius: 30px;
+    margin: 15px;
 }
 
-.report{
-    color: white;
+.report {
+    color: whitesmoke;
     text-align: center;
-    padding: 10px;
+    padding: 20px 0;
     font-size: 40px;
     text-decoration: underline;
 }
 
-.text{
+.title {
+    color: white;
+    padding: 25px 10px;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.text {
     color: white;
     padding: 10px;
     font-size: 20px;
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+img {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    display: block;
+}
+
+footer {
+    background-color: #54AFBC;
+    text-align: center;
+    font-size: 30px;
+    color:white;
+    line-height: 50px;
+}
+
+@media only screen and (max-width:605px){
+    nav ul{display: none;}
+    span.material-symbols-outlined{display: block; float: right; padding: 15px;}
+    .logo{font-size: 40px; margin-left: 15px;}
 }
