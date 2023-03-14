@@ -18,7 +18,7 @@ nav {
     font-size: 40px;
     margin-left: 60px;
     font-weight: 700;
-    text-decoration: non;
+    text-decoration: none;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -42,6 +42,10 @@ nav ul li a {
 
 nav ul li a:hover {
     color: goldenrod;
+}
+
+.nav-img {
+    display: none;
 }
 
 .contact1 {
@@ -99,7 +103,7 @@ button {
     width: 100px;
 }
 
-.column-bottom{
+.column-bottom {
     background-color: #54AFBC;
     border-radius: 50px;
     padding: 30px;
@@ -117,24 +121,59 @@ footer {
     background-color: #54AFBC;
     text-align: center;
     font-size: 30px;
-    color:white;
+    color: white;
     line-height: 50px;
 }
 
-@media (max-width:1925px){
-    .about{font-size: 20px;}
-    footer{font-size: 15px;}
+@media (max-width:1925px) {
+    .about {
+        font-size: 20px;
+    }
+
+    footer {
+        font-size: 15px;
+    }
 }
 
-@media (max-width:1020px){
-    .details{margin: 10px 10%; padding: 5px;}
-    .column-bottom{margin:1% 10%;}
-    .about{font-size: 20px;}
-    footer{font-size: 15px;}
-    ul{display: none;}
-    .logo{margin-left: 10px; font-size: 30px;}
+@media (max-width:1020px) {
+    .nav-img {
+        display: block;
+    }
+
+    .details {
+        margin: 10px 10%;
+        padding: 5px;
+    }
+
+    .column-bottom {
+        margin: 1% 10%;
+    }
+
+    .about {
+        font-size: 20px;
+    }
+
+    footer {
+        font-size: 15px;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .logo {
+        margin-left: 0px;
+        font-size: 30px;
+    }
 }
 
-@media (max-width: 352px){
-    .contact2{font-size: 35px; margin: 10px 20px;}
+@media (max-width: 352px) {
+    .nav-img {
+        display: block;
+    }
+
+    .contact2 {
+        font-size: 35px;
+        margin: 10px 20px;
+    }
 }

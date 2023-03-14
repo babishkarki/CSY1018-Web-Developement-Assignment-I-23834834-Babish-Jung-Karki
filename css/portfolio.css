@@ -44,6 +44,10 @@ nav ul li a:hover {
     color: goldenrod;
 }
 
+.nav-img{
+    display: none;
+}
+
 .row {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -64,6 +68,11 @@ img {
 }
 
 @media (max-width: 930px) {
+    .nav-img {
+        display: block;
+    }
+
+
     .logo {
         margin-left: 25px;
         font-size: 40px;
@@ -85,8 +94,13 @@ img {
 }
 
 @media (max-width: 420px) {
+    .nav-img {
+        display: block;
+    }
+
+
     .logo {
-        margin-left: 20px;
+        margin-left: 0px;
         font-size: 30px;
     }
 
@@ -106,8 +120,12 @@ img {
 }
 
 @media (max-width: 320px) {
+    .nav-img {
+        display: block;
+    }
+
     .logo {
-        margin-left: 15px;
+        margin-left: 0px;
         font-size: 30px;
     }
 

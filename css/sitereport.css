@@ -44,6 +44,10 @@ nav ul li a:hover {
     color: goldenrod;
 }
 
+.nav-img {
+    display: none;
+}
+
 .child1 {
     background-color: #54AFBC;
     border-radius: 30px;
@@ -85,12 +89,20 @@ footer {
     background-color: #54AFBC;
     text-align: center;
     font-size: 30px;
-    color:white;
+    color: white;
     line-height: 50px;
 }
 
-@media only screen and (max-width:605px){
-    nav ul{display: none;}
-    span.material-symbols-outlined{display: block; float: right; padding: 15px;}
-    .logo{font-size: 40px; margin-left: 15px;}
+@media only screen and (max-width:605px) {
+    .nav-img {
+        display: block;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .logo {
+        margin-left: 0;
+    }
 }
