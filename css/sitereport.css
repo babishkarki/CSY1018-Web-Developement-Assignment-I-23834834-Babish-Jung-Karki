@@ -85,6 +85,12 @@ img {
     display: block;
 }
 
+.text1{
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
 footer {
     background-color: #54AFBC;
     text-align: center;

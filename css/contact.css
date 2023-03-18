@@ -127,11 +127,11 @@ footer {
 
 @media (max-width:1925px) {
     .about {
-        font-size: 20px;
+        font-size: 25px;
     }
 
     footer {
-        font-size: 15px;
+        font-size: 25px;
     }
 }
 
